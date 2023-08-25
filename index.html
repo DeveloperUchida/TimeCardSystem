@@ -5,6 +5,20 @@
     <title>タイムカードシステム</title>
 </head>
 <body>
+<link href="style.css" rel="stylesheet">
+<form id="timecard-form">
+    <label for="employee-id">社員番号:</label>
+    <input type="text" id="employee-id" required><br>
 
+    <label for="employee-name">名前:</label>
+    <input type="text" id="employee-name" required><br>
+
+    <button type="button" id="clock-in-button">出勤</button>
+    <button type="button" id="clock-out-button">退勤</button>
+</form>
+
+<div id="message"></div>
+
+<script src="main.js"></script>
 </body>
 </html>
