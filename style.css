@@ -3,6 +3,7 @@ body {
     background-color: #6e6070;
 }
 #timecard-form{
+    margin-top: 300px;
     text-align: center;
     font-size: 20px;
 }
